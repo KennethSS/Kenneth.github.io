@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Android
+title: RxJava
 nav_order: 3
 has_children: true
 permalink: /docs/rxjava
