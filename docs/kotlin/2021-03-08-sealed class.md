@@ -1,25 +1,14 @@
 ---
-date: 2021-03-08T13:46:05.000Z
-layout: post
-title: Kotlin Sealed Class란?
-subtitle: Kotlin Sealed Class에 대해서 설명합니다.
-description: >-
-  Kotlin Sealed Class에 대해서 설명합니다.
-image: >-
-  /assets/img/uploads/kotlin.jpg
-optimized_image: >-
- /assets/img/uploads/kotlin.jpg
-category: kotlin
-tags:
-  - kotiln
-author: KennethSS
-paginate: true
+layout: default
+title: [Kotlin] Sealed Class란?
+parent: Kotlin
+nav_order: 2
 
 
 
 ---
 
-### Sealed Class란 무엇일까?
+Sealed Class란 무엇일까?
 
 sealed class는 상속을 받는 Child 클래스에 대해서 제한된 클래스 계층을 가지고 있는 클래스입니다. 상속을 받는 하위 클래스는 여러 파일에 해당 될 수 있기 때문에 컴파일러는 얼마나 많은 하위 클래스를 포함하고 있는지 모릅니다. sealed class는 해당 모듈 컴파일타임에 정의된 하위 클래스만외에 다른 하위 클래스는 존재 하지 않는다는 것을 알려줍니다.
 

@@ -1,3 +1,13 @@
+---
+layout: default
+title: Kotlin으로 람다 함수(Lambda Function)와  고차 함수(High Order Function)에 대해서 알아보자
+parent: Kotlin
+nav_order: 2
+
+---
+
+
+
 ## Kotlin으로 람다 함수(Lambda Function)와  고차 함수(High Order Function)에 대해서 알아보자
 
 
