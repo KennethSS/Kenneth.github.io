@@ -47,6 +47,10 @@ Kotlin은 Java를 완벽히 대체 가능하면서 여러 장점을 추가적으
 
 {: .mb-lg-3040 }
 
+{: .mb-lg-4 }
+
+
+
 ### 성능차이?
 
 Java vs Kotlin를 컴파일 성능을 비교한 [자료](https://medium.com/@johnkorly/kotlin-vs-java-performance-drill-down-which-to-choose-2514bdf91916)가 있습니다
