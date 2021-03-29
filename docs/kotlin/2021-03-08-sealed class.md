@@ -1,9 +1,8 @@
 ---
 layout: default
-title: [Kotlin] Sealed Class란?
+title: Sealed Class란?
 parent: Kotlin
 nav_order: 2
-
 
 
 ---
