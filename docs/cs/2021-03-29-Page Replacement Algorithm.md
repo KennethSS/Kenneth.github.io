@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 페이징 교체 알고리즘(Paging Replacement Algorithm)
-parent: cs
+parent: CS
 nav_order: 2
 
 
