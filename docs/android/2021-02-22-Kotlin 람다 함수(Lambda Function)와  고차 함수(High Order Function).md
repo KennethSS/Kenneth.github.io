@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kotlin으로 람다 함수(Lambda Function)와  고차 함수(High Order Function)에 대해서 알아보자
-parent: android
+parent: Android
 nav_order: 2
 
 ---
