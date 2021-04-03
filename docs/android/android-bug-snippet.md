@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Android Bug Snippet
-parent: UI Components
+parent: Android
 has_children: true
 nav_order: 6
 ---
