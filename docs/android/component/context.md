@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 데이터 바인딩 사용시 에러
+title: Context 란 무엇일까?
 parent: Component
 grand_parent: Android
 permalink: /docs/android/component/context/
