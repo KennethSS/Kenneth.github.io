@@ -27,3 +27,4 @@ Tables are responsive by default, allowing wide tables to have a horizontal scro
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 ```
+

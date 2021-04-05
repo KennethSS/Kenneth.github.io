@@ -17,7 +17,7 @@ To make it as easy as possible to write documentation in plain Markdown, most UI
 
 ### 변환 연산자
 
-```
+```markdown
 | 함수 이름      | 설명								|
 |:-------------|:------------------|
 | map() 			 		| 데이터 변환 |
