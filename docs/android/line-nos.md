@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Code with line numbers
-parent: Android
-grand_parent: Android Bug Snippet
+parent: Android Bug Snippet
+grand_parent: Android
 permalink: /docs/android/android-bug-snippet/line-numbers/
 ---
 
