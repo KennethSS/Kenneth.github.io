@@ -1,3 +1,16 @@
+---
+layout: default
+title: Observer 패턴
+parent: Design Pattern
+grand_parent: CS
+permalink: /docs/cs/design-pattern/observer-pattern/
+
+
+
+---
+
+
+
 ## 옵저버 패턴 이란?
 
 객체의 상태 변화를 관찰하는 관찰자들(옵저버)의 목록을 객체에 등록하여 상태 변화가 발생하면 등록된 목록의 관찰자(옵저버)들에게 통지하도록 하는 디자인 패턴이다.
