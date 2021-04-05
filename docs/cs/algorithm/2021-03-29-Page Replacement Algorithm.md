@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 페이징 교체 알고리즘(Paging Replacement Algorithm)
+title: 페이징 교체 알고리즘
 parent: Algorithm
 grand_parent: CS
 permalink: /docs/cs/algorithm/paging-replacement-algorithm/
@@ -10,7 +10,7 @@ permalink: /docs/cs/algorithm/paging-replacement-algorithm/
 
 
 
-# 페이징 교체 알고리즘
+# 페이징 교체 알고리즘(Paging Replacement Algorithm)
 
 ## 페이징 교체 알고리즘 이란?
 
