@@ -38,13 +38,13 @@ minSdkVersion 21 (API 21) 이하 설정 방법
 
 `build.gradle(app)`에 라이브러리를 추가 해준다
 
-https://gist.github.com/KennethSS/b903e7bcf01c151abe0d9c1189253054#file-build-gradle
-
-<iframe src="https://kennethss.medium.com/media/5f07cec1227bbdeb652634db95343b10" allowfullscreen="" frameborder="0" height="197" width="680" title="AndroidManifest.xml" class="by fh fe rc w" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; left: 0px; top: 0px; height: 197px;"></iframe>
+<script src="https://gist.github.com/KennethSS/a13ec97fcdbb28566d56dc1afcca4c14.js"></script>
 
 `AndroidManifest.xml` 에 `application` 을 MultiDexApplication으로 선언한다
 
-<iframe src="https://kennethss.medium.com/media/e4bc97736fef96f5cad12c574c2355dd" allowfullscreen="" frameborder="0" height="219" width="680" title="MultiDexApplication.kt" class="by fh fe rc w" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; left: 0px; top: 0px; height: 219px;"></iframe>
+<script src="https://gist.github.com/KennethSS/9a218c9f9e669ee9a9f69f2ac9da1a01.js"></script>
+
+
 
 MultiDexApplication을 상속받거나 attachBaseContext에서 MultiDex를 설치해주면 된다.
 
