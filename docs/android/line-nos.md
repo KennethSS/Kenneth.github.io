@@ -3,7 +3,7 @@ layout: default
 title: Code with line numbers
 parent: Android
 grand_parent: Android Bug Snippet
-permalink: /docs/android/android-bug-snnipet/line-numbers/
+permalink: /docs/android/android-bug-snipet/line-numbers/
 ---
 
 # Code snippets with line numbers
