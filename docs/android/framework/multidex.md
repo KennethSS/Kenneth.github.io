@@ -34,7 +34,7 @@ minSdkVersion 21 (API 21) 이상은 기본적으로 사용 설정되어서 더 �
 
 minSdkVersion 21 (API 21) 이하 설정 방법
 
-<script src="https://gist.github.com/KennethSS/b903e7bcf01c151abe0d9c1189253054#file-build-gradle">
+<script src="https://gist.github.com/KennethSS/b903e7bcf01c151abe0d9c1189253054.js"></script>
 
 `build.gradle(app)`에 라이브러리를 추가 해준다
 
