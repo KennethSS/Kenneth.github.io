@@ -1,11 +1,14 @@
 ---
 layout: default
 title: 페이징 교체 알고리즘(Paging Replacement Algorithm)
-parent: CS
-nav_order: 2
+parent: Algorithm
+grand_parent: CS
+permalink: /docs/cs/algorithm/paging-replacement-algorithm/
 
 
 ---
+
+
 
 # 페이징 교체 알고리즘
 

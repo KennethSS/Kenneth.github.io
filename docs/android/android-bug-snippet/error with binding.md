@@ -7,7 +7,7 @@ permalink: /docs/android/android-bug-snippet/error-with-databinding/
 
 ---
 
-# 
+
 
 DataBidning 사용시
 
