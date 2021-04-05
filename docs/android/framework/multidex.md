@@ -34,9 +34,11 @@ minSdkVersion 21 (API 21) 이상은 기본적으로 사용 설정되어서 더 �
 
 minSdkVersion 21 (API 21) 이하 설정 방법
 
-<iframe src="https://kennethss.medium.com/media/116cf7d3c8f8ae9bfd56ff56de189b65" allowfullscreen="" frameborder="0" height="329" width="680" title="build.gradle" class="by fh fe rc w" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; left: 0px; top: 0px; height: 329px;"></iframe>
+{% gist https://gist.github.com/KennethSS/b903e7bcf01c151abe0d9c1189253054#file-build-gradle  %}
 
 `build.gradle(app)`에 라이브러리를 추가 해준다
+
+https://gist.github.com/KennethSS/b903e7bcf01c151abe0d9c1189253054#file-build-gradle
 
 <iframe src="https://kennethss.medium.com/media/5f07cec1227bbdeb652634db95343b10" allowfullscreen="" frameborder="0" height="197" width="680" title="AndroidManifest.xml" class="by fh fe rc w" scrolling="auto" style="box-sizing: inherit; width: 680px; position: absolute; left: 0px; top: 0px; height: 197px;"></iframe>
 
