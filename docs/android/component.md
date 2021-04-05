@@ -1,9 +1,10 @@
 ---
+
 layout: default
-title: Android Bug Snippet
+title: Component
 parent: Android
 has_children: true
-nav_order: 2
+nav_order: 1
 ---
 
 # Code

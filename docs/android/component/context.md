@@ -1,20 +1,9 @@
 ---
-date: 2021-03-08T13:46:05.000Z
-layout: post
-title: [Android] 안드로이드에서 Context 란?
-subtitle: 안드로이드 Context에 대한 구조를 파악하고 설명합니다.
-description: >-
-  안드로이드 Context에 대한 구조를 파악하고 설명합니다.
-image: >-
-  /assets/img/uploads/kotlin.jpg
-optimized_image: >-
- /assets/img/uploads/kotlin.jpg
-category: kotlin
-tags:
-  - kotiln
-author: KennethSS
-paginate: true
-parent: Android
+layout: default
+title: 데이터 바인딩 사용시 에러
+parent: Component
+grand_parent: Android
+permalink: /docs/android/component/context/
 
 ---
 
