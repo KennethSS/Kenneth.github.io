@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Degisn Pattern
+title: Desisn Pattern
 parent: CS
 has_children: true
 nav_order: 6
