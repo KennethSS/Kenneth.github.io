@@ -15,14 +15,36 @@ permalink: /docs/design-pattern/command-pattern/
 
 **커맨드 패턴**(Command pattern)이란 요청을 객체의 형태로 [캡슐화](https://ko.wikipedia.org/wiki/캡슐화)하여 사용자가 보낸 요청을 나중에 이용할 수 있도록 매서드 이름, 매개변수 등 요청에 필요한 정보를 저장 또는 로깅, 취소할 수 있게 하는 패턴이다.
 
-
-
 커맨드 패턴에 사용되는 4가지 주요 용어가 있다
 
 - 명령(Command)
 - 수신사(Receiver)
 - 발동자(Invoker)
 - 클라이언트(Client)
+
+안드로이드에서는 `Thread` 와 `Runnable` 이 대표적인 커맨드 패턴사례라고 볼 수 있다
+
+
+
+```kotlin
+class CommandUnitTest {
+    private val remote: RemoteController = RemoteController()
+
+    @Test
+    fun testBenzCar() {
+        remote.setCommand(BenzCommand(BenzCar()))
+        remote.openRoof()
+        remote.closeRoof()
+    }
+
+    @Test
+    fun testFordCar() {
+        remote.setCommand(FordCommand(FordCar()))
+        remote.openRoof()
+        remote.closeRoof()
+    }
+}
+```
 
 
 
