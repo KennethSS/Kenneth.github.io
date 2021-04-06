@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: 행위 패턴(Behavior Pattern)
+title: 행위 패턴(Behavior)
 parent: Design Pattern
 has_children: true
 nav_order: 3

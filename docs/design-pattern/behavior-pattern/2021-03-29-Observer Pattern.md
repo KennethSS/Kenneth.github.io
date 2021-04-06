@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Observer 패턴
-parent: 행위 패턴(Behavior Pattern)
+parent: 행위 패턴(Behavior)
 grand_parent: Design Pattern
 permalink: /docs/design-pattern/observer-pattern/
 
