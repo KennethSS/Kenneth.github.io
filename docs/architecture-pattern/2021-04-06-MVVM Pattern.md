@@ -15,7 +15,7 @@ permalink: /docs/cs/architecture-pattern/mvvm/
 
 ## MVVM 패턴이란?
 
-MVVM패턴은 View-ViewModel-Model 단위로 분리하여 각 단위간의 의존성을 줄이고 구성된 아키텍처 패턴이다. Command패턴과 Data Binding 패턴을 사용해서 View와 ViewModel 사이의 의존성을 낮출 수 있다.
+MVVM패턴은 View-ViewModel-Model 단위로 분리하여 각 단위간의 의존성을 줄이고 구성된 아키텍처 패턴이다. [Command]({{ site.baseurl }}{% link docs/design-pattern/command-pattern/ %}#aux-links)패턴과 Data Binding 패턴을 사용해서 View와 ViewModel 사이의 의존성을 낮출 수 있다.
 
 
 
