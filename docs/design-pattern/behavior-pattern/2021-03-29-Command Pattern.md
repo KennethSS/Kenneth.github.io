@@ -24,7 +24,84 @@ permalink: /docs/design-pattern/command-pattern/
 
 안드로이드에서는 `Thread` 와 `Runnable` 이 대표적인 커맨드 패턴사례라고 볼 수 있다
 
+## Command 패턴 사용해 보기
 
+필자는 자동차를 좋아합니다. 뚜껑이 열리는 차를 부르는 방식이 각자 다른거 아시나요?
+
+로드스터, 까브리올레, 컨버터블 등이 있습니다. 벤츠 모델은 까브리올레로 명칭하고 있고 포드 같은 미국 계열의 차는 컨버터블로 불리고 있습니다. 어떤 리모컨으로 자동차의 뚜껑을 열고 닫을 때 벤츠나 포드의 리모컨을 나누지 않고 하나의 리모컨으로 기능을 구현합니다. 예시는 다음과 같습니다.
+
+- 자동차를 컨트롤하는 리모컨이 있음
+- 차종에 관계 없이 차 뚜껑을 열고 닫을 수 있어야 함
+
+위의 구현을 Command 패턴으로 구현해 보겠습니다.
+
+먼저 뚜껑을 열고 닫는 Command Interface를 작성합니다.
+
+```kotlin
+interface Command {
+    fun openRoof()
+}
+```
+
+벤츠와 포드 자동차의 객체를 만듭니다. 두 자동차는 명칭과 동작하는 방식이 다르기 때문에 함수명이 다릅니다.
+
+```kotlin
+class BenzCar {
+    fun openCabriolet() {
+        println("Benz: Open Cabriolet")
+    }
+}
+```
+
+```kotlin
+class FordCar {
+    fun openConvertible() {
+        println("Ford: Open Convertible")
+    }
+}
+```
+
+이제 Command를 Implement한 객체를 BenzCommand를 생성합니다.
+
+```kotlin
+class BenzCommand(
+    private val benzCar: BenzCar
+) : Command {
+    override fun openRoof() {
+        benzCar.openCabriolet()
+    }
+}
+```
+
+```kotlin
+class FordCommand(
+    private val fordCar: FordCar
+) : Command {
+    override fun openRoof() {
+        fordCar.openConvertible()
+    }
+}
+```
+
+자 이제 실제로 만든 Command 패턴을 이용해 잘 동작되는지 확인해보겠습니다
+
+```kotlin
+class RemoteController(
+    private var command: Command? = null
+) {
+    fun setCommand(command: Command) {
+        this.command = command
+    }
+
+    fun openRoof() {
+        command?.openRoof()
+    }
+}
+```
+
+Command를 이용해 차량을 컨트롤하는 `RemoteController` 클래스를 생성합니다.
+
+테스트코드로 잘 동작되는지 확인해보겠습니다.
 
 ```kotlin
 class CommandUnitTest {
@@ -34,17 +111,27 @@ class CommandUnitTest {
     fun testBenzCar() {
         remote.setCommand(BenzCommand(BenzCar()))
         remote.openRoof()
-        remote.closeRoof()
     }
 
     @Test
     fun testFordCar() {
         remote.setCommand(FordCommand(FordCar()))
         remote.openRoof()
-        remote.closeRoof()
     }
 }
 ```
+
+RemoteContrller 인스턴스를 생성하고 리모컨에 할당할 차량의 커맨드 인스턴스를 할당해줍니다.
+그리고 입력된 커맨드 인스턴스를 바탕으로 RemoteController의 openRoof(), closeRoof() 클래스를 실행해봅니다. 
+
+```
+Ford: Open Convertible
+Ford: Close Convertible
+Benz: Open Cabriolet
+Benz: Close Cabriolet
+```
+
+각 차량에 맞게 함수가 호출되었습니다. 
 
 
 
