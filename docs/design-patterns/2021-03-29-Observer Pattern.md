@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Command 패턴
+title: Observer 패턴
 parent: Design Pattern
 grand_parent: CS
-permalink: /docs/cs/design-pattern/command-pattern/
+permalink: /docs/design-pattern/observer-pattern/
 
 
 
@@ -11,22 +11,9 @@ permalink: /docs/cs/design-pattern/command-pattern/
 
 
 
-## Command 패턴 이란?
+## 옵저버 패턴 이란?
 
-**커맨드 패턴**(Command pattern)이란 요청을 객체의 형태로 [캡슐화](https://ko.wikipedia.org/wiki/캡슐화)하여 사용자가 보낸 요청을 나중에 이용할 수 있도록 매서드 이름, 매개변수 등 요청에 필요한 정보를 저장 또는 로깅, 취소할 수 있게 하는 패턴이다.
-
-
-
-커맨드 패턴에 사용되는 4가지 주요 용어가 있다
-
-- 명령(Command)
-- 수신사(Receiver)
-- 발동자(Invoker)
-- 클라이언트(Client)
-
-
-
-
+객체의 상태 변화를 관찰하는 관찰자들(옵저버)의 목록을 객체에 등록하여 상태 변화가 발생하면 등록된 목록의 관찰자(옵저버)들에게 통지하도록 하는 디자인 패턴이다.
 
 Subject(이벤트를 발생 시키는 주체)에서 Register, UnRegister를 통해 
 옵저버를 추가 및 삭제하여 리스트를 관리합니다.
