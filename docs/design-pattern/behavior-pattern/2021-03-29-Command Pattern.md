@@ -17,10 +17,10 @@ permalink: /docs/design-pattern/command-pattern/
 
 커맨드 패턴에 사용되는 4가지 주요 용어가 있다
 
-- 명령(Command)
-- 수신사(Receiver)
-- 발동자(Invoker)
-- 클라이언트(Client)
+- **명령(Command)**: 수신자의 정보 + 행동
+- **수신사(Receiver)**: 행동을 하는 객체
+- **발동자(Invoker)**: 커맨드를 저장하는 객체
+- **클라이언트(Client)**: 커맨드 객체를 저장하고 발동하여 수신자에게 전달
 
 안드로이드에서는 `Thread` 와 `Runnable` 이 대표적인 커맨드 패턴사례라고 볼 수 있다
 
@@ -122,76 +122,40 @@ class CommandUnitTest {
 ```
 
 RemoteContrller 인스턴스를 생성하고 리모컨에 할당할 차량의 커맨드 인스턴스를 할당해줍니다.
-그리고 입력된 커맨드 인스턴스를 바탕으로 RemoteController의 openRoof(), closeRoof() 클래스를 실행해봅니다. 
+그리고 입력된 커맨드 인스턴스를 바탕으로 RemoteController의 open()을 실행해봅니다. 
 
 ```
 Ford: Open Convertible
-Ford: Close Convertible
 Benz: Open Cabriolet
-Benz: Close Cabriolet
 ```
 
 각 차량에 맞게 함수가 호출되었습니다. 
 
 
 
+앞서 말한 4가지 용어 중 각 해당 되는 클래스입니다.
 
-
-Subject(이벤트를 발생 시키는 주체)에서 Register, UnRegister를 통해 
-옵저버를 추가 및 삭제하여 리스트를 관리합니다.
-그리고 어떤 이벤트에 발생함에 따라 Subject에서 notifyObservers()를 통해 구독 혹은 옵저빙 중인 객체들에게 이벤트를 발생 및 전달합니다
-
-![img](https://cdn-images-1.medium.com/max/800/0*uH6_TpuqD5Uccpld.png)by wikipedia
-
-한번에 이해가 어려울 수도 있습니다. 저도 그랬어요 ^^
-예시를 보면서 익혀봅시다
-
-### 예시
-
-먼저 객체를 구독해줄 구독자들 부터 만들어 봅시다
-
-<script src="https://gist.github.com/KennethSS/8c5a27084877025c0f563ae1eeff576d.js"></script>
-
-<script src="https://gist.github.com/KennethSS/dcd69550ecf254f7ca19fe484bd12a06.js"></script>
+- 명령(Command): Command
+- 수신사(Receiver): BenzCommand, FordCommand
+- 발동자(Invoker): RemoteController
+- 클라이언트(Client): TestCode 
 
 
 
-Fragment를 구독자로 예시를 들어 구현해보았습니다.
-구독자를 구현했으니 구독자에게 이벤트를 전달할 
-Subject를 만들어보겠습니다.
+## 장단점
 
-<script src="https://gist.github.com/KennethSS/8d66353718f72e1ff8e5975fd5f7e80d.js"></script>
+### 장점
 
-<script src="https://gist.github.com/KennethSS/de0b04b8c750691c2680645b50e313a0.js"></script>
+- 시스템의 결합도를 낮춤
+- 기존 코드를 수정하지 않고 새 커맨드를 이용하여 추가할 수 있음
+- 명령 호출자와 수신자간의 의존성이 없음
+
+### 단점
+
+- 명령에 대한 클래스가 점점 늘어남
 
 
 
-Observable이라는 Interface를 구현하여
-옵저버등록, 옵저버삭제, 옵저버 이벤트 발생 3가지를 만들었습니다
-편의상 이해하기 쉽게 이벤트 발생 주체는 Youtuber로 만들었습니다
+## 마무리
 
-옵저버를 등록하고 이벤트를 발생시키는 조건은 아래와 같습니다.
-
-```
-val youtuber = Youtuber()
-val observer = SampleFragment()
-youtuber.registerObserver(observer)
-youtuber.notifyObserversNewVideo(resource)
-```
-
-해당 이벤트를 발생하면
-
-```
-override fun newVideo(imageRes: Int) {
-
-}
-```
-
-newVideo 함수로 이벤트가 콜백됩니다.
-
-Observer 패턴은 RxJava의 기반이되는 패턴이기도 합니다.
-
-Rxjava의 대한 내용은 추후 다뤄보도록 하겠습니다. 감사합니다 :)
-
-Android Sample 코드를 Github에 올려두었습니다.
-참고하시면 더 이해가 쉬울겁니다 :)
+커맨드 패턴을 활용하여 큐(Queue)에 저장하여 execute() 만 실행하여 작업큐 관련 작업에 사용 할 수 있습니다. 
