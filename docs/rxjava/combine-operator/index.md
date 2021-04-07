@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: 결합 연산자(Combine Operator)
+title: 결합 연산자
 parent: RxJava
 has_children: true
 nav_order: 2
