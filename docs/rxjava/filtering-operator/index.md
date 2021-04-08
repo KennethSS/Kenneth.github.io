@@ -1,10 +1,10 @@
 ---
 
 layout: default
-title: 결합 연산자
+title: 필터 연산자
 parent: RxJava
 has_children: true
-nav_order: 4
+nav_order: 3
 ---
 
 # Code
