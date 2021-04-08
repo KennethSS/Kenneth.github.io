@@ -31,7 +31,7 @@ Android 7.0 (API 24) 이상에서는 다음과 같은 항목이 제한 됩니다
 
 - `ACTION_NEW_PICTURE`
 - `ACTION_NEW_VIDEO`
-- `CONNECTIVITY_ACTION` manifest에 수신자 선언 불가
+- `CONNECTIVITY_ACTION`를 manifest에 수신자로 선언 불가
 
 
 
