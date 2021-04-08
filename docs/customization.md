@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Customization
-nav_order: 6
+nav_order: 8
 ---
 
 # Customization
@@ -84,8 +84,8 @@ with the following content:`
 
 {% raw %}
     ---
-    ---
-    {% include css/just-the-docs.scss.liquid color_scheme="foo" %}
+---
+​    {% include css/just-the-docs.scss.liquid color_scheme="foo" %}
 {% endraw %}
 
 This allows you to switch the scheme via the following javascript.
