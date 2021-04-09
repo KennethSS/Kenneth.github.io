@@ -39,3 +39,11 @@ Android 8.0(API 26 Oreo) 부터 백그라운드 서비스에 대한 제한이 �
 
 
 
+### 예약 작업에 대한 제한
+
+안드로이드 10 이상을 타겟팅하는 경우 6.0 이상 실행기기에서 FirebaseJobDispatcher 및 GcmNetworkManager 더이상 동작하지 않습니다.
+
+
+
+
+
