@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Android
+title: Coroutine
 nav_order: 4
 has_children: true
-permalink: /docs/android
+permalink: /docs/android/coroutine
 ---
 
 # Overview
