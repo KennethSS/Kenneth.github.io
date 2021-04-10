@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CS
-nav_order: 6
+nav_order: 8
 has_children: true
 permalink: /docs/cs
 ---
@@ -10,3 +10,4 @@ permalink: /docs/cs
 
 To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
 {: .fs-6 .fw-300 }
+
