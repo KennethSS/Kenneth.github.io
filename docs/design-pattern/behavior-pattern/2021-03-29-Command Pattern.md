@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Command 패턴
-parent: 행위 패턴(Behavior)
+parent: 행위 패턴(Behavioral)
 grand_parent: Design Pattern
 permalink: /docs/design-pattern/command-pattern/
 
