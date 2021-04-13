@@ -63,6 +63,6 @@ MVVM 아키텍처 패턴이 어디에도 사용하고 무조건 좋은 패턴이
 
 ### 참고
 
-- [MicroSoft][https://docs.microsoft.com/ko-kr/xamarin/xamarin-forms/enterprise-application-patterns/mvvm]
-- [CodeProject][https://www.codeproject.com/Articles/221585/Step-By-Step-Guide-To-MVVM]
+- [MicroSoft](https://docs.microsoft.com/ko-kr/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
+- [CodeProject](https://www.codeproject.com/Articles/221585/Step-By-Step-Guide-To-MVVM)
 
