@@ -8,6 +8,13 @@ permalink: /docs/clean-architecture
 
 ## 클린 아키텍처란?
 
+클린 아키텍처의 특징
+
+- 경계선(Boundaries)
+- 유스케이스(UseCase)
+- 험블 객체
+- 의존성 역전 DIP
+
 
 
 ## 아키텍처의 목적
@@ -28,10 +35,6 @@ permalink: /docs/clean-architecture
 ### 클린아키텍처
 
 가장 가운데는 고수준 가장 바깥은 저수준 저수준에서 고수준 방향으로 의존
-
-
-
-
 
 
 
