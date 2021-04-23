@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dagger
-parent: 디자인 패턴
+parent: 의존성 주입 패턴
 grand_parent: Design Pattern
 permalink: /docs/dependency-injection-pattern/dagger/
 

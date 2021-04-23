@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MVVM 패턴이란?
+title: 안드로이드에서 클린 아키텍처
 parent: Clean Architecture
 grand_parent: Clean Architecture
 permalink: /docs/clean-architecture/android/
