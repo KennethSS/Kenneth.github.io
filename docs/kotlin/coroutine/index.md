@@ -15,3 +15,15 @@ Kotlin은 언어 수준에서 코 루틴 지원을 제공하고 대부분의 기
 보너스로 코 루틴은 비동기 프로그래밍에 대한 문을 열뿐만 아니라 동시성 및 행위자와 같은 다양한 가능성을 제공합니다.
 ```
 
+
+
+- CoroutineScope
+- CoroutineContext
+- Dispatcher
+- launch(async
+
+
+
+- Channel
+- Flow
+- Action
