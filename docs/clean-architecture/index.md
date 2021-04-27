@@ -8,6 +8,8 @@ permalink: /docs/clean-architecture
 
 ## 클린 아키텍처란?
 
+![clean-architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
+
 클린 아키텍처의 특징
 
 - 경계선(Boundaries)

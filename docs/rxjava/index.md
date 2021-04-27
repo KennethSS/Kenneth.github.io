@@ -6,10 +6,29 @@ has_children: true
 permalink: /docs/rxjava
 ---
 
-# RxJava
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
-{: .fs-6 .fw-300 }
+
+## RxJava가 무엇일까?
+
+반응형 프로그래밍(Reactive Programming) 패러다임을 Java에서 구현한 프로그래밍 라이브러리입니다. RxJava는 옵저버 패턴(Observer Pattern)을 확장하여 데이터 및 이벤트의 시퀀스를 지원하고 낮은 수준의 스레딩, 동기화, 스레드 세이프등 동시 데이터구조의 문제를 추상적으로 해결할 수 있는 연산자를 제공합니다.
+
+### 반응형 프로그래밍(Reactive Programming) 이란?
+
+데이터 스트림과 변경사항에 대한 전파(Propagation)를 중심의 선언적 프로그래밍 패러다임입니다. 즉 데이터를 관찰하고 데이터가 변경되면 해당 이벤트를 처리하는 프로그래밍을 의미합니다.
+
+
+
+
+
+- Observable
+- Operators
+- Single
+- Subject
+- Scheduler
+
+
+
+
 
 
 
