@@ -11,7 +11,7 @@ nav_order: 1
 
 ## 코루틴(Coroutine)이란?
 
-코루틴(Coroutine)은 실행과 지연, 재개를 허용하는 비선점형 멀티태스킹을 위한 [서브루틴]()을 일반화하는 컴퓨터 프로그램의 구성요소라고 할 수 있습니다.
+코루틴(Coroutine)은 실행과 지연, 재개를 허용하는 비선점형 멀티태스킹을 위한 [서브루틴]({{ site.baseurl }}{% link /docs/cs/os/2021-04-27-Context Switching.md %}#aux-links)을 일반화하는 컴퓨터 프로그램의 구성요소라고 할 수 있습니다.
 
 
 
@@ -23,7 +23,7 @@ Kotlin은 언어 수준에서 코 루틴 지원을 제공하고 대부분의 기
 
 ### 성능상의 이점
 
-멀티 스레딩의 작업의 경우 스레드가 OS를 통해 작업들을 관리[Context Switching]({{ site.baseurl }}{% link /docs/cs/os/context-switching/ %}#aux-links)한다
+멀티 스레딩의 작업의 경우 스레드가 OS를 통해 작업들을 관리[Context Switching]({{ site.baseurl }}{% link /docs/cs/os/2021-04-27-Context Switching.md %}#aux-links)한다
 
 
 
