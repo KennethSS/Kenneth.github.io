@@ -1,14 +1,11 @@
 ---
 layout: default
-title: 페이징 교체 알고리즘
+title: 병행성과 병렬성 차이
 parent: OS
 grand_parent: CS
 permalink: /docs/cs/os/concurrency-and-parallelism/
 
-
 ---
-
-
 
 # 병행성(Concurrency) 병렬성(Parallelism)의 차이
 
