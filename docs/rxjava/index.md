@@ -3,7 +3,7 @@ layout: default
 title: RxJava
 nav_order: 5
 has_children: true
-permalink: /docs/rxjava
+permalink: /docs/rxjava/operator/
 ---
 
 

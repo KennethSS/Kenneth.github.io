@@ -3,7 +3,7 @@ layout: default
 title: Merge
 parent: 결합 연산자
 grand_parent: RxJava
-permalink: /docs/rxjava/combine-operator/merge/
+permalink: /docs/rxjava/operator/combine-operator/merge/
 
 ---
 
@@ -12,3 +12,4 @@ permalink: /docs/rxjava/combine-operator/merge/
 
 
 working in progress.. 🚧
+
