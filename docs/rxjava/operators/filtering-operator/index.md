@@ -2,7 +2,7 @@
 
 layout: default
 title: 필터 연산자
-parent: 연산자
+parent: 연산자(Operator)
 has_children: true
 nav_order: 3
 ---
