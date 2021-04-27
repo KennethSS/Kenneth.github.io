@@ -88,12 +88,11 @@ Use case는 Output port라는 인터페이스를 둔다. 그리고 Presenter는 
 
 - 꼭 4개의 레이어를 사용해야 하는가? -> No
 - UseCase 사용이유
-- 
 
 
 
 #### 참고
 
 - [The Clean Code Blog - Robert C. Martin(Uncle Bob)][https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html]
-- 
+- [blog.coderfileman.com](https://blog.coderifleman.com/2017/12/18/the-clean-architecture/)
 
