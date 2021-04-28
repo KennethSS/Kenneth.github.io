@@ -10,9 +10,11 @@ permalink: /docs/clean-architecture
 
 ![clean-architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
-- 
 
 
+![CleanArchitecture_1](/docs/clean-architecture/CleanArchitecture_1.png)
+
+![CleanArchitecture_1](/docs/clean-architecture/CleanArchitecture_1.png)
 
 ## 클린 아키텍처의 특징(엉클 밥)
 

@@ -9,13 +9,22 @@ permalink: /docs/android/component/view/
 
 ## View 란 무엇일까?
 
-- AttatchToWindow
-- (requestLayout)
+- onAttachToWindow
+
+  requestlayout
+
 - measure
+
 - onMeasure
+
 - layout
+
 - onLayout
-- (invalidate)
-- dispatchDraw
+
+  invalidate
+
+- DispatchDraw
+
 - draw
+
 - onDraw
