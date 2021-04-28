@@ -2,7 +2,7 @@
 layout: default
 title: FlatMap
 parent: 변환 연산자
-grand_parent: 연산자(Operator)
+grand_parent: RxJava
 permalink: /docs/rxjava/operator/trasforming-operator/flatmap/
 
 ---
