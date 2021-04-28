@@ -10,16 +10,11 @@ permalink: /docs/clean-architecture
 
 ![clean-architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
-클린 아키텍처의 특징
-
-- 경계선(Boundaries)
-- 유스케이스(UseCase)
-- 험블 객체
-- 의존성 역전 DIP
+- 
 
 
 
-## 아키텍처의 목적
+## 클린 아키텍처의 특징(엉클 밥)
 
 - 프레임워크로 부터 독립적
   라이브러리 혹은 프레임워크에 한정적이지 않아 어떠한 도구로 사용하는 것이 가능합니다.
@@ -30,11 +25,20 @@ permalink: /docs/clean-architecture
 - 데이터베이스에 독립적
   DB를 독립적으로 변경 가능합니다.(SQL, Mongo, Oracle 등)
 - 외부 기능과 독립적
-  Business Rule은 외부 상황(Database, UI, WebServer)에 대해 전혀 알지 못합니다. 
+  Business Rule은 외부 상황(Database, UI, WebServer)에 대해 전혀 알지 못합니다.
 
-이러한 아키텍처를 하나의 실행 가능한 아이디어로 통합하려는 시도로 존재한게 바로 클린 아키텍처
+위의 이러한 아키텍처를 하나의 실행 가능한 아이디어로 통합하려는 시도로 존재한게 바로 클린 아키텍처
 
-### 클린아키텍처
+## 클린 아키텍처의 특징(개인)
+
+- 경계선(Boundaries)
+- 유스케이스(UseCase)
+- 험블 객체
+- 의존성 역전 DIP
+
+
+
+### 클린 아키텍처
 
 가장 가운데는 고수준 가장 바깥은 저수준 저수준에서 고수준 방향으로 의존
 
@@ -93,6 +97,6 @@ Use case는 Output port라는 인터페이스를 둔다. 그리고 Presenter는 
 
 #### 참고
 
-- [The Clean Code Blog - Robert C. Martin(Uncle Bob)][https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html]
+- [The Clean Code Blog - Robert C. Martin(Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - [blog.coderfileman.com](https://blog.coderifleman.com/2017/12/18/the-clean-architecture/)
 
