@@ -4,7 +4,7 @@ layout: default
 title: 변환 연산자
 parent: 연산자(Operator)
 has_children: true
-grand_parent: RxJava
+grand_parent: d
 nav_order: 2
 ---
 
