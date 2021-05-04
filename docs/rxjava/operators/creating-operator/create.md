@@ -3,7 +3,7 @@ layout: default
 title: Create
 parent: 생성 연산자
 grand_parent: RxJava
-permalink: /docs/rxjava/operators/creating/create
+permalink: /docs/rxjava/operators/creating/create/
 
 ---
 
@@ -12,3 +12,4 @@ permalink: /docs/rxjava/operators/creating/create
 
 
 working in progress.. 🚧
+
