@@ -2,7 +2,7 @@
 layout: default
 title: 마샬링과 직렬화 차이
 parent: CS
-nav_order: 2
+nav_order: 12
 
 
 

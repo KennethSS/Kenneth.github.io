@@ -2,7 +2,7 @@
 layout: default
 title: 서브루틴(Sub-Routine)
 parent: CS
-nav_order: 2
+nav_order: 12
 
 
 
