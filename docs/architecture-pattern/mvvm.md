@@ -15,7 +15,7 @@ permalink: /docs/cs/architecture-pattern/mvvm/
 
 ## MVVM 패턴이란?
 
-MVVM패턴은 View-ViewModel-Model 단위로 분리하여 각 단위간의 의존성을 줄이고 구성된 아키텍처 패턴이다. [Command](https://kennethss.github.io/docs/design-pattern/command-pattern/)패턴과 Data Binding 패턴을 사용해서 View와 ViewModel 사이의 의존성을 낮추고 비즈니스 로직과 프레젠테이션 로직을 UI로 분리하는 것에 목적을 두고 있습니다.
+MVVM패턴은 View-ViewModel-Model 단위로 분리하여 각 단위간의 의존성을 줄이고 구성된 아키텍처 패턴입니다. [Command](https://kennethss.github.io/docs/design-pattern/command-pattern/)패턴과 Data Binding 패턴을 사용해서 View와 ViewModel 사이의 의존성을 낮추고 비즈니스 로직과 프레젠테이션 로직을 UI로 분리하는 것에 목적을 두고 있습니다. MVVM패턴에서의 핵심은 데이터바인딩 메커니즘을 이용하여 UI의 부분 추상화가 특징입니다.
 
 
 
@@ -65,4 +65,5 @@ MVVM 아키텍처 패턴이 어디에도 사용하고 무조건 좋은 패턴이
 
 - [MicroSoft](https://docs.microsoft.com/ko-kr/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
 - [CodeProject](https://www.codeproject.com/Articles/221585/Step-By-Step-Guide-To-MVVM)
+- [David Ha](https://dhha22.github.io/android/2018/02/07/Model-View-ViewModel.html)
 
