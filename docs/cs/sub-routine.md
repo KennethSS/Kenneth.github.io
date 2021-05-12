@@ -23,9 +23,9 @@ nav_order: 12
 
 ### 참고자료
 
-- [서브루틴-위키피디아](https://en.wikipedia.org/wiki/Subroutine)
+- [서브루틴 - 위키피디아](https://en.wikipedia.org/wiki/Subroutine)
 
-- [서브루틴-제타위키](https://zetawiki.com/wiki/%EC%84%9C%EB%B8%8C%EB%A3%A8%ED%8B%B4,_%ED%95%A8%EC%88%98)
+- [서브루틴 - 제타위키](https://zetawiki.com/wiki/%EC%84%9C%EB%B8%8C%EB%A3%A8%ED%8B%B4,_%ED%95%A8%EC%88%98)
 
   
 
