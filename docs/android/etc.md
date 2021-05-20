@@ -12,3 +12,4 @@ nav_order: 2
 - RecyclerView.ItemDecoration에서 layoutManager의 SpanCount는 불통이다?
 - DataBinding 조건문사용시 Char or String 조건비교시 equals를 써야한다. == 는 먹지않음
 
+- ObservableField vs LiveData 어느것을 써야할까?
