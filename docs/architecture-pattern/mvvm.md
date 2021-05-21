@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MVVM 패턴이란?
+title: MVVM 패턴
 parent: Architecture Pattern
 grand_parent: CS
 permalink: /docs/cs/architecture-pattern/mvvm/

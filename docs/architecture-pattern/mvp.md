@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MVP 패턴이란?
+title: MVP 패턴
 parent: Architecture Pattern
 grand_parent: CS
 permalink: /docs/cs/architecture-pattern/mvp/
