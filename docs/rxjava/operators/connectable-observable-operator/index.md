@@ -7,7 +7,7 @@ grand_parent: RxJava
 nav_order: 1
 ---
 
-- [Create](https://kennethss.github.io/docs/rxjava/operators/creating/create/)
+- [Create](https://kennethss.github.io//docs/rxjava/operators/creating/create/)
 - Defer
 - Empty
 - Never
@@ -18,4 +18,3 @@ nav_order: 1
 - Repeat
 - Start
 - Timer
-

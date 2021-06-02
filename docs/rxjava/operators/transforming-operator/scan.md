@@ -1,15 +1,13 @@
 ---
 layout: default
-title: Scan
+title: FlatMap
 parent: 변환 연산자
 grand_parent: RxJava
-permalink: /docs/rxjava/operator/trasforming-operator/scan/
+permalink: /docs/rxjava/operator/trasforming-operator/flatmap/
 
 ---
 
-## Scan
-
-
+## FlatMap
 
 
 
