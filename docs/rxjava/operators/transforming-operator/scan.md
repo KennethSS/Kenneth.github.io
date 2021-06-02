@@ -3,7 +3,7 @@ layout: default
 title: FlatMap
 parent: 변환 연산자
 grand_parent: RxJava
-permalink: /docs/rxjava/operator/trasforming-operator/flatmap/
+permalink: /docs/rxjava/operator/trasforming-operator/scan/
 
 ---
 
@@ -17,7 +17,7 @@ permalink: /docs/rxjava/operator/trasforming-operator/flatmap/
 
 
 
-### 샘플 코드 (kotlin)
+### 샘플 코드 ()
 
 ```kotlin
 observable
