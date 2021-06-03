@@ -14,8 +14,6 @@ permalink: /docs/clean-architecture
 
 ![CleanArchitecture_1](/docs/clean-architecture/CleanArchitecture_1.png)
 
-![CleanArchitecture_1](/docs/clean-architecture/CleanArchitecture_1.png)
-
 ## 클린 아키텍처의 특징(엉클 밥)
 
 - 프레임워크로 부터 독립적
