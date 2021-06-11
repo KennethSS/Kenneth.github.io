@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Filter
-parent: 필터 연산자
+parent: 연산자(Operator)
 grand_parent: RxJava
 permalink: /docs/rxjava/operator/filtering-operator/filter/
 
@@ -12,3 +12,4 @@ permalink: /docs/rxjava/operator/filtering-operator/filter/
 ![filter](/assets/images/rxjava-filter.png)
 
 working in progress.. 🚧
+
