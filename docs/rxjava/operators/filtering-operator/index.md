@@ -7,6 +7,6 @@ grand_parent: RxJava
 nav_order: 3
 ---
 
-- [Filter](https://kennethss.github.io/docs/rxjava/operator/trasforming-operator/filter/)
+- [Filter](https://kennethss.github.io/docs/rxjava/operator/filtering-operator/filter/)
 - [Distinct](https://kennethss.github.io/docs/rxjava/operator/trasforming-operator/distinct/)
 
